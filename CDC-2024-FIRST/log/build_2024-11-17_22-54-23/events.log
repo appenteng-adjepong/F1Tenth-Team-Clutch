@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.001598] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.003382] (my_robot_package) JobQueued: {'identifier': 'my_robot_package', 'dependencies': OrderedDict()}
+[0.005575] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.031214] (my_robot_package) JobStarted: {'identifier': 'my_robot_package'}
+[0.099593] (-) TimerEvent: {}
+[0.202253] (-) TimerEvent: {}
+[0.304099] (-) TimerEvent: {}
+[0.404879] (-) TimerEvent: {}
+[0.509177] (-) TimerEvent: {}
+[0.612246] (-) TimerEvent: {}
+[0.714070] (-) TimerEvent: {}
+[0.814571] (-) TimerEvent: {}
+[0.915823] (-) TimerEvent: {}
+[1.018343] (-) TimerEvent: {}
+[1.120768] (-) TimerEvent: {}
+[1.221433] (-) TimerEvent: {}
+[1.322103] (-) TimerEvent: {}
+[1.422704] (-) TimerEvent: {}
+[1.524039] (-) TimerEvent: {}
+[1.626565] (-) TimerEvent: {}
+[1.728972] (-) TimerEvent: {}
+[1.831159] (-) TimerEvent: {}
+[1.934138] (-) TimerEvent: {}
+[1.957470] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_controller', 'build', '--build-base', '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build', 'install', '--record', '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/my_robot_controller', 'env': {'SUDO_GID': '0', 'MAIL': '/var/mail/root', 'USER': 'root', 'HOSTNAME': 'crunchy-IdeaPad-3-17ITL6', 'HOME': '/root', 'COLORTERM': 'truecolor', 'SUDO_UID': '0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/colcon build', 'SHELL': '/bin/bash', 'SUDO_USER': 'root', 'LC_ALL': 'C.UTF-8', 'PWD': '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller', 'COLCON': '1', 'PYTHONPATH': '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages:'}, 'shell': False}
+[1.982956] (my_robot_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_package', 'build', '--build-base', '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/build', 'install', '--record', '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/my_robot_package', 'env': {'SUDO_GID': '0', 'MAIL': '/var/mail/root', 'USER': 'root', 'HOSTNAME': 'crunchy-IdeaPad-3-17ITL6', 'HOME': '/root', 'COLORTERM': 'truecolor', 'SUDO_UID': '0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/colcon build', 'SHELL': '/bin/bash', 'SUDO_USER': 'root', 'LC_ALL': 'C.UTF-8', 'PWD': '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package', 'COLCON': '1', 'PYTHONPATH': '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages:'}, 'shell': False}
+[2.034229] (-) TimerEvent: {}
+[2.135617] (-) TimerEvent: {}
+[2.236269] (-) TimerEvent: {}
+[2.337064] (-) TimerEvent: {}
+[2.423876] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[2.426415] (my_robot_controller) StdoutLine: {'line': b'writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO\n'}
+[2.427617] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt\n'}
+[2.427846] (my_robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt\n'}
+[2.427949] (my_robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt\n'}
+[2.428043] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt\n'}
+[2.431409] (my_robot_package) StdoutLine: {'line': b'running egg_info\n'}
+[2.431649] (my_robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[2.432511] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[2.432848] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[2.432969] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[2.433082] (my_robot_package) StdoutLine: {'line': b'writing ../../build/my_robot_package/my_robot_package.egg-info/PKG-INFO\n'}
+[2.433297] (my_robot_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_package/my_robot_package.egg-info/dependency_links.txt\n'}
+[2.433394] (my_robot_package) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_package/my_robot_package.egg-info/entry_points.txt\n'}
+[2.433489] (my_robot_package) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_package/my_robot_package.egg-info/requires.txt\n'}
+[2.433585] (my_robot_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_package/my_robot_package.egg-info/top_level.txt\n'}
+[2.433712] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[2.434126] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[2.435740] (my_robot_package) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_package/my_robot_package.egg-info/SOURCES.txt'\n"}
+[2.436155] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[2.436259] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.437154] (-) TimerEvent: {}
+[2.437594] (my_robot_package) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_package/my_robot_package.egg-info/SOURCES.txt'\n"}
+[2.437987] (my_robot_package) StdoutLine: {'line': b'running build\n'}
+[2.438081] (my_robot_package) StdoutLine: {'line': b'running build_py\n'}
+[2.438686] (my_robot_package) StdoutLine: {'line': b'copying my_robot_package/wall_follow.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/build/lib/my_robot_package\n'}
+[2.439524] (my_robot_controller) StdoutLine: {'line': b"removing '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.439821] (my_robot_package) StdoutLine: {'line': b'running install\n'}
+[2.440197] (my_robot_controller) StdoutLine: {'line': b'Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info\n'}
+[2.440484] (my_robot_package) StdoutLine: {'line': b'running install_lib\n'}
+[2.442218] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[2.442623] (my_robot_package) StdoutLine: {'line': b'copying /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/build/lib/my_robot_package/wall_follow.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages/my_robot_package\n'}
+[2.444145] (my_robot_package) StdoutLine: {'line': b'byte-compiling /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages/my_robot_package/wall_follow.py to wall_follow.cpython-310.pyc\n'}
+[2.449099] (my_robot_package) StdoutLine: {'line': b'running install_data\n'}
+[2.450395] (my_robot_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.460695] (my_robot_package) StdoutLine: {'line': b"removing '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages/my_robot_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.462351] (my_robot_package) StdoutLine: {'line': b'Copying ../../build/my_robot_package/my_robot_package.egg-info to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages/my_robot_package-0.0.0-py3.10.egg-info\n'}
+[2.464574] (my_robot_package) StdoutLine: {'line': b'running install_scripts\n'}
+[2.518253] (my_robot_controller) StdoutLine: {'line': b'Installing draw_circle script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.519172] (my_robot_controller) StdoutLine: {'line': b'Installing drive_vehicle1 script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.519289] (my_robot_controller) StdoutLine: {'line': b'Installing drive_vehicle2 script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.519478] (my_robot_controller) StdoutLine: {'line': b'Installing drive_vehicle3 script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.520030] (my_robot_controller) StdoutLine: {'line': b'Installing my_subscriber_node script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.520121] (my_robot_controller) StdoutLine: {'line': b'Installing new_bridge script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.521074] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.521181] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/install.log'\n"}
+[2.528492] (my_robot_package) StdoutLine: {'line': b'Installing my_subscriber_node script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/my_robot_package\n'}
+[2.528736] (my_robot_package) StdoutLine: {'line': b'Installing wall_follow script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/my_robot_package\n'}
+[2.529383] (my_robot_package) StdoutLine: {'line': b"writing list of installed files to '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/install.log'\n"}
+[2.537432] (-) TimerEvent: {}
+[2.636210] (my_robot_controller) CommandEnded: {'returncode': 0}
+[2.637534] (-) TimerEvent: {}
+[2.655826] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[2.663921] (my_robot_package) CommandEnded: {'returncode': 0}
+[2.689824] (my_robot_package) JobEnded: {'identifier': 'my_robot_package', 'rc': 0}
+[2.691451] (-) EventReactorShutdown: {}

@@ -1,0 +1,38 @@
+{
+    "name": "F1Tenth Simulator",
+    "image": "autodriveecosystem/autodrive_f1tenth_sim:2024-cdc-practice",
+    "runArgs": [
+        "--name", "autodrive_f1tenth_sim",
+        "--rm",
+        "-it",
+        "--entrypoint", "/bin/bash",
+        "--network=host",
+        "--ipc=host",
+        "-v", "/tmp/.X11-unix:/tmp/.X11-unix:rw",
+        "--env", "DISPLAY",
+        "--privileged",
+        //"--gpus", "all",
+        "--ulimit", "memlock=-1",
+        "--ulimit", "stack=-1",
+        "-v","/etc/vulkan:/etc/vulkan:ro",  
+		"-v","/dev/dri:/dev/dri"
+    ],
+
+    "workspaceFolder": "/home/autodrive_simulator",
+    
+    // "workspaceMount": "source=/home/autodrive_simulator,target=/home/autodrive_simulator,type=bind",
+
+    "postCreateCommand": "cd && cd /workspaces/F1Tenth_Team_Clutch/CDC-2024-CLUTCH-DEVKIT && bash vul.sh && cd && cd /home/autodrive_simulator && ./AutoDRIVE\\ Simulator.x86_64",
+    
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.cwd": "/home/autodrive_simulator"
+            },
+            "extensions": []
+        }
+    },
+
+}
+
+

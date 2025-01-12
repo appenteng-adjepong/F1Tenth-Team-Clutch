@@ -1,0 +1,44 @@
+{
+    "name": "F1Tenth Devkit",
+    //"build": {"context": "..",
+//                 "dockerfile":"../test.Dockerfile"
+// },
+    "image": "autodriveecosystem/autodrive_f1tenth_api:2024-cdc-practice", // Replace with correct tag if needed
+    "runArgs": [
+        "--name", "autodrive_f1tenth_api",
+        "--rm",
+        "-it",
+        "--entrypoint", "/bin/bash",
+        "--network=host",
+        "--ipc=host",
+        "-v", "/tmp/.X11-unix:/tmp/.X11-unix:rw",
+		"--env", "DISPLAY",
+	// "-e", "DISPLAY=:1", // Use host.docker.internal to refer to the Windows host
+	// "-e", "DISPLAY=host.docker.internal:1", // Use host.docker.internal to refer to the Windows host        
+		"--privileged",
+        //"--gpus", "all"
+        "-v","/etc/vulkan:/etc/vulkan:ro",  
+		"-v","/dev/dri:/dev/dri"
+    ],
+
+    "workspaceFolder": "/home/autodrive_devkit",
+
+    // "workspaceMount": "source=/home/autodrive_devkit,target=/home/autodrive_devkit,type=bind",
+
+    "postCreateCommand": "cd && cd /workspaces/F1Tenth_Team_Clutch/CDC-2024-CLUTCH-DEVKIT && cd && cd /home/autodrive_devkit && ros2 launch autodrive_f1tenth simulator_bringup_rviz.launch.py", // Update with the correct executable if different
+    
+    "shutdownAction": "none",
+
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.cwd": "/home/autodrive_devkit"
+            },
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    },
+
+
+}

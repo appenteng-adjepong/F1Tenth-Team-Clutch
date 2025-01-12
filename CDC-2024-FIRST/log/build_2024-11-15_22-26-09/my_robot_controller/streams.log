@@ -1,0 +1,67 @@
+[0.807s] Invoking command in '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/my_robot_controller': PYTHONPATH=/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build install --record /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[1.072s] running egg_info
+[1.073s] creating ../../build/my_robot_controller/my_robot_controller.egg-info
+[1.073s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[1.073s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[1.073s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[1.073s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[1.073s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[1.074s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.075s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.076s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.076s] running build
+[1.076s] running build_py
+[1.077s] creating /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build
+[1.077s] creating /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib
+[1.077s] creating /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller
+[1.077s] copying my_robot_controller/ new_bridge.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller
+[1.077s] copying my_robot_controller/drive_vehicle1.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller
+[1.077s] copying my_robot_controller/draw_circle.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller
+[1.077s] copying my_robot_controller/drive_vehicle3.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller
+[1.077s] copying my_robot_controller/__init__.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller
+[1.077s] copying my_robot_controller/drive_vehicle2.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller
+[1.077s] copying my_robot_controller/my_subscriber_node copy.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller
+[1.077s] copying my_robot_controller/my_first_node.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller
+[1.077s] copying my_robot_controller/teleop_keyboard.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller
+[1.077s] copying my_robot_controller/my_subscriber_node.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller
+[1.077s] running install
+[1.078s] running install_lib
+[1.078s] creating /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.078s] copying /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller/ new_bridge.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.079s] copying /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller/drive_vehicle1.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.079s] copying /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller/draw_circle.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.079s] copying /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller/drive_vehicle3.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.079s] copying /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.079s] copying /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller/drive_vehicle2.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.079s] copying /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller/my_subscriber_node copy.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.079s] copying /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.079s] copying /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller/teleop_keyboard.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.079s] copying /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build/lib/my_robot_controller/my_subscriber_node.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.080s] byte-compiling /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/ new_bridge.py to  new_bridge.cpython-310.pyc
+[1.080s] byte-compiling /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/drive_vehicle1.py to drive_vehicle1.cpython-310.pyc
+[1.081s] byte-compiling /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc
+[1.081s] byte-compiling /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/drive_vehicle3.py to drive_vehicle3.cpython-310.pyc
+[1.082s] byte-compiling /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[1.082s] byte-compiling /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/drive_vehicle2.py to drive_vehicle2.cpython-310.pyc
+[1.083s] byte-compiling /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_subscriber_node copy.py to my_subscriber_node copy.cpython-310.pyc
+[1.084s] byte-compiling /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc
+[1.084s] byte-compiling /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[1.084s] byte-compiling /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_subscriber_node.py to my_subscriber_node.cpython-310.pyc
+[1.086s] running install_data
+[1.086s] creating /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/share/ament_index
+[1.086s] creating /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/share/ament_index/resource_index
+[1.086s] creating /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.086s] copying resource/my_robot_controller -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.086s] copying package.xml -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/share/my_robot_controller
+[1.086s] running install_egg_info
+[1.088s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[1.088s] running install_scripts
+[1.115s] Installing draw_circle script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[1.115s] Installing drive_vehicle1 script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[1.115s] Installing drive_vehicle2 script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[1.115s] Installing drive_vehicle3 script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[1.116s] Installing my_subscriber_node script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[1.116s] Installing new_bridge script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[1.116s] Installing test_node script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[1.116s] writing list of installed files to '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/install.log'
+[1.180s] Invoked command in '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/my_robot_controller' returned '0': PYTHONPATH=/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build install --record /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/install.log --single-version-externally-managed install_data

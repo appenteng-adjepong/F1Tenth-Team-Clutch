@@ -1,0 +1,100 @@
+[0.284s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST']
+[0.284s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x783a3bacd00>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x783a3b73ee0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x783a3b73ee0>>, mixin_verb=('list',))
+[0.699s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.702s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.703s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.704s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.704s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.704s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.704s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.704s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST) by extensions ['ignore', 'ignore_ament_install']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST) by extension 'ignore'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST) by extension 'ignore_ament_install'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST) by extensions ['colcon_pkg']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST) by extension 'colcon_pkg'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST) by extensions ['colcon_meta']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST) by extension 'colcon_meta'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST) by extensions ['ros']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST) by extension 'ros'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST) by extensions ['cmake', 'python']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST) by extension 'cmake'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST) by extension 'python'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST) by extensions ['python_setup_py']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST) by extension 'python_setup_py'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build) by extensions ['ignore', 'ignore_ament_install']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build) by extension 'ignore'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build) ignored
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install) by extensions ['ignore', 'ignore_ament_install']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install) by extension 'ignore'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install) ignored
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/log) by extensions ['ignore', 'ignore_ament_install']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/log) by extension 'ignore'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/log) ignored
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src) by extensions ['ignore', 'ignore_ament_install']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src) by extension 'ignore'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src) by extension 'ignore_ament_install'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src) by extensions ['colcon_pkg']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src) by extension 'colcon_pkg'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src) by extensions ['colcon_meta']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src) by extension 'colcon_meta'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src) by extensions ['ros']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src) by extension 'ros'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src) by extensions ['cmake', 'python']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src) by extension 'cmake'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src) by extension 'python'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src) by extensions ['python_setup_py']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src) by extension 'python_setup_py'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/build) by extension 'ignore'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/build) ignored
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/install) by extension 'ignore'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/install) ignored
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/log) by extension 'ignore'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/log) ignored
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/my_robot_package) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/my_robot_package) by extension 'ignore'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/my_robot_package) by extension 'ignore_ament_install'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/my_robot_package) by extensions ['colcon_pkg']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/my_robot_package) by extension 'colcon_pkg'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/my_robot_package) by extensions ['colcon_meta']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/my_robot_package) by extension 'colcon_meta'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/my_robot_package) by extensions ['ros']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/my_robot_package) by extension 'ros'
+[0.767s] DEBUG:colcon.colcon_core.package_identification:Package '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/my_robot_package' with type 'ros.ament_python' and name 'my_robot_package'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old) by extensions ['ignore', 'ignore_ament_install']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old) by extension 'ignore'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old) by extension 'ignore_ament_install'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old) by extensions ['colcon_pkg']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old) by extension 'colcon_pkg'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old) by extensions ['colcon_meta']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old) by extension 'colcon_meta'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old) by extensions ['ros']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old) by extension 'ros'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old) by extensions ['cmake', 'python']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old) by extension 'cmake'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old) by extension 'python'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old) by extensions ['python_setup_py']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old) by extension 'python_setup_py'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/build) by extensions ['ignore', 'ignore_ament_install']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/build) by extension 'ignore'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/build) ignored
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/install) by extensions ['ignore', 'ignore_ament_install']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/install) by extension 'ignore'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/install) ignored
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/log) by extensions ['ignore', 'ignore_ament_install']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/log) by extension 'ignore'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/log) ignored
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/my_robot_controller) by extension 'ignore'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/my_robot_controller) by extension 'ignore_ament_install'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/my_robot_controller) by extensions ['colcon_pkg']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/my_robot_controller) by extension 'colcon_pkg'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/my_robot_controller) by extensions ['colcon_meta']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/my_robot_controller) by extension 'colcon_meta'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/my_robot_controller) by extensions ['ros']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/my_robot_controller) by extension 'ros'
+[0.776s] DEBUG:colcon.colcon_core.package_identification:Package '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[0.776s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

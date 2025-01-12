@@ -1,0 +1,50 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/docker-existing-dockerfile
+{
+	"name": "Existing Dockerfile",
+	"build": {
+		// Sets the run context to one level up instead of the .devcontainer folder.
+		"context": "..",
+		// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
+		"dockerfile": "../autodrive_devkit.Dockerfile"
+	},
+	
+	"runArgs": [
+		"--privileged",
+		"--gpus", "all",
+		// "-e", "DISPLAY=:1", // Use host.docker.internal to refer to the Windows host
+		// "-e", "DISPLAY=host.docker.internal:1", // Use host.docker.internal to refer to the Windows host
+		"-e", "DISPLAY=:1", // Use host.docker.internal to refer to the Windows host
+		"--network=host",
+		"--ipc=host",
+		"--ulimit", "memlock=-1",
+		"--ulimit", "stack=67108864"
+	],
+
+	"containerEnv": {
+    "DISPLAY": "${DISPLAY}",
+	},
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Uncomment the next line to run commands after the container is created.
+	"postCreateCommand": "bash autodrive_devkit.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	},
+
+
+	// Configure tool-specific properties.
+	// "customizations": {},
+
+	// Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "devcontainer"
+}

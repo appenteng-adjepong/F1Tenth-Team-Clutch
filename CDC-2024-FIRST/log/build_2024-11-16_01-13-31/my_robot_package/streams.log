@@ -1,0 +1,21 @@
+[2.737s] Invoking command in '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package': PYTHONPATH=/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/build --no-deps symlink_data --force
+[3.739s] running develop
+[3.743s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.743s]   warnings.warn(
+[4.125s] running egg_info
+[4.129s] writing my_robot_package.egg-info/PKG-INFO
+[4.129s] writing dependency_links to my_robot_package.egg-info/dependency_links.txt
+[4.130s] writing entry points to my_robot_package.egg-info/entry_points.txt
+[4.130s] writing requirements to my_robot_package.egg-info/requires.txt
+[4.131s] writing top-level names to my_robot_package.egg-info/top_level.txt
+[4.145s] reading manifest file 'my_robot_package.egg-info/SOURCES.txt'
+[4.147s] writing manifest file 'my_robot_package.egg-info/SOURCES.txt'
+[4.153s] running build_ext
+[4.154s] Creating /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages/my-robot-package.egg-link (link to .)
+[4.163s] Installing my_subscriber_node script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/my_robot_package
+[4.165s] 
+[4.166s] Installed /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package
+[4.166s] running symlink_data
+[4.166s] symbolically linking /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/resource/my_robot_package -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/share/ament_index/resource_index/packages
+[4.166s] symbolically linking /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/package.xml -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/share/my_robot_package
+[4.387s] Invoked command in '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package' returned '0': PYTHONPATH=/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/build --no-deps symlink_data --force

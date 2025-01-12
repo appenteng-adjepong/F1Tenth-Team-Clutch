@@ -1,0 +1,25 @@
+[2.619s] Invoking command in '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller': PYTHONPATH=/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build --no-deps symlink_data
+[3.375s] running develop
+[3.380s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.380s]   warnings.warn(
+[3.669s] running egg_info
+[3.669s] writing my_robot_controller.egg-info/PKG-INFO
+[3.670s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[3.670s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[3.670s] writing requirements to my_robot_controller.egg-info/requires.txt
+[3.670s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[3.681s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[3.683s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[3.687s] running build_ext
+[3.688s] Creating /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[3.691s] Installing draw_circle script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[3.694s] Installing drive_vehicle1 script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[3.694s] Installing drive_vehicle2 script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[3.694s] Installing drive_vehicle3 script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[3.694s] Installing my_subscriber_node script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[3.695s] Installing new_bridge script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[3.695s] Installing test_node script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[3.695s] 
+[3.695s] Installed /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller
+[3.695s] running symlink_data
+[3.893s] Invoked command in '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller' returned '0': PYTHONPATH=/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build --no-deps symlink_data

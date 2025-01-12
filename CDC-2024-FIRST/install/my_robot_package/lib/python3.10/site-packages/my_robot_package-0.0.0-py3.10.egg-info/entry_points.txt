@@ -1,0 +1,5 @@
+[console_scripts]
+my_subscriber_node = my_robot_package.my_subscriber_node:main
+safety_node = my_robot_package.safety_node:main
+wall_follow = my_robot_package.wall_follow:main
+

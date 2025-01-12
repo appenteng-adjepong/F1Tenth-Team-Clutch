@@ -1,0 +1,27 @@
+[2.392s] Invoking command in '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/my_robot_controller': PYTHONPATH=/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build install --record /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[2.991s] running egg_info
+[2.992s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[2.994s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[2.995s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[2.996s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[2.996s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[3.002s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[3.003s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[3.004s] running build
+[3.004s] running build_py
+[3.006s] running install
+[3.007s] running install_lib
+[3.009s] running install_data
+[3.009s] running install_egg_info
+[3.014s] removing '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[3.014s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[3.014s] running install_scripts
+[3.092s] Installing draw_circle script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[3.092s] Installing drive_vehicle1 script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[3.093s] Installing drive_vehicle2 script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[3.093s] Installing drive_vehicle3 script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[3.093s] Installing my_subscriber_node script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[3.093s] Installing new_bridge script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[3.093s] Installing test_node script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller
+[3.094s] writing list of installed files to '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/install.log'
+[3.260s] Invoked command in '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src_old/my_robot_controller' returned '0': PYTHONPATH=/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build install --record /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/install.log --single-version-externally-managed install_data

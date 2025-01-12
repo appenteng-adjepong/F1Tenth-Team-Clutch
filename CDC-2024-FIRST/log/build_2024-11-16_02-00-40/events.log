@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000330] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.000423] (my_robot_package) JobQueued: {'identifier': 'my_robot_package', 'dependencies': OrderedDict()}
+[0.000452] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.016906] (my_robot_package) JobStarted: {'identifier': 'my_robot_package'}
+[0.100427] (-) TimerEvent: {}
+[0.201780] (-) TimerEvent: {}
+[0.306900] (-) TimerEvent: {}
+[0.408909] (-) TimerEvent: {}
+[0.510491] (-) TimerEvent: {}
+[0.612199] (-) TimerEvent: {}
+[0.712955] (-) TimerEvent: {}
+[0.814126] (-) TimerEvent: {}
+[0.915768] (-) TimerEvent: {}
+[1.020770] (-) TimerEvent: {}
+[1.127971] (-) TimerEvent: {}
+[1.233491] (-) TimerEvent: {}
+[1.337313] (-) TimerEvent: {}
+[1.438932] (-) TimerEvent: {}
+[1.540786] (-) TimerEvent: {}
+[1.642126] (-) TimerEvent: {}
+[1.745955] (-) TimerEvent: {}
+[1.847939] (-) TimerEvent: {}
+[1.951851] (-) TimerEvent: {}
+[2.056672] (-) TimerEvent: {}
+[2.159404] (-) TimerEvent: {}
+[2.264312] (-) TimerEvent: {}
+[2.368775] (-) TimerEvent: {}
+[2.475406] (-) TimerEvent: {}
+[2.576792] (-) TimerEvent: {}
+[2.681744] (-) TimerEvent: {}
+[2.789239] (-) TimerEvent: {}
+[2.892259] (-) TimerEvent: {}
+[2.932059] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller', 'env': {'HOSTNAME': 'crunchy-IdeaPad-3-17ITL6', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/helpers/browser.sh', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-7358ed4c-15b6-4f14-9856-4c0204bbaf7a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-ee45ebba-6d38-4192-a808-6fe772197933.sock', 'COLCON_PREFIX_PATH': '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-f29845bc-2ca1-4c5d-986b-6e660f4c829d.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/user/0', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-f29845bc-2ca1-4c5d-986b-6e660f4c829d.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/0/vscode-git-ad1fb2665e.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-f29845bc-2ca1-4c5d-986b-6e660f4c829d.sock', 'AMENT_PREFIX_PATH': '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.992460] (-) TimerEvent: {}
+[3.094261] (-) TimerEvent: {}
+[3.167075] (my_robot_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/build', '--no-deps', 'symlink_data'], 'cwd': '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package', 'env': {'HOSTNAME': 'crunchy-IdeaPad-3-17ITL6', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/helpers/browser.sh', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-7358ed4c-15b6-4f14-9856-4c0204bbaf7a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-ee45ebba-6d38-4192-a808-6fe772197933.sock', 'COLCON_PREFIX_PATH': '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-f29845bc-2ca1-4c5d-986b-6e660f4c829d.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/user/0', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-f29845bc-2ca1-4c5d-986b-6e660f4c829d.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/0/vscode-git-ad1fb2665e.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-f29845bc-2ca1-4c5d-986b-6e660f4c829d.sock', 'AMENT_PREFIX_PATH': '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.194587] (-) TimerEvent: {}
+[3.298344] (-) TimerEvent: {}
+[3.404255] (-) TimerEvent: {}
+[3.507104] (-) TimerEvent: {}
+[3.608925] (-) TimerEvent: {}
+[3.703737] (my_robot_controller) StdoutLine: {'line': b'running develop\n'}
+[3.704641] (my_robot_controller) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.704899] (my_robot_controller) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.709247] (-) TimerEvent: {}
+[3.812169] (-) TimerEvent: {}
+[3.913285] (-) TimerEvent: {}
+[3.935331] (my_robot_package) StdoutLine: {'line': b'running develop\n'}
+[3.936954] (my_robot_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.937217] (my_robot_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.013839] (-) TimerEvent: {}
+[4.034898] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[4.037051] (my_robot_controller) StdoutLine: {'line': b'writing my_robot_controller.egg-info/PKG-INFO\n'}
+[4.037210] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to my_robot_controller.egg-info/dependency_links.txt\n'}
+[4.037306] (my_robot_controller) StdoutLine: {'line': b'writing entry points to my_robot_controller.egg-info/entry_points.txt\n'}
+[4.037385] (my_robot_controller) StdoutLine: {'line': b'writing requirements to my_robot_controller.egg-info/requires.txt\n'}
+[4.037465] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to my_robot_controller.egg-info/top_level.txt\n'}
+[4.040037] (my_robot_controller) StdoutLine: {'line': b"reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[4.043048] (my_robot_controller) StdoutLine: {'line': b"writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[4.048960] (my_robot_controller) StdoutLine: {'line': b'running build_ext\n'}
+[4.050614] (my_robot_controller) StdoutLine: {'line': b'Creating /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)\n'}
+[4.053740] (my_robot_controller) StdoutLine: {'line': b'Installing draw_circle script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.056635] (my_robot_controller) StdoutLine: {'line': b'Installing drive_vehicle1 script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.056985] (my_robot_controller) StdoutLine: {'line': b'Installing drive_vehicle2 script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.057075] (my_robot_controller) StdoutLine: {'line': b'Installing drive_vehicle3 script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.057165] (my_robot_controller) StdoutLine: {'line': b'Installing my_subscriber_node script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.057258] (my_robot_controller) StdoutLine: {'line': b'Installing new_bridge script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.057351] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.057435] (my_robot_controller) StdoutLine: {'line': b'\n'}
+[4.057557] (my_robot_controller) StdoutLine: {'line': b'Installed /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_controller\n'}
+[4.057635] (my_robot_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[4.114289] (-) TimerEvent: {}
+[4.216106] (-) TimerEvent: {}
+[4.261297] (my_robot_controller) CommandEnded: {'returncode': 0}
+[4.316921] (-) TimerEvent: {}
+[4.345481] (my_robot_package) StdoutLine: {'line': b'running egg_info\n'}
+[4.346143] (my_robot_package) StdoutLine: {'line': b'writing my_robot_package.egg-info/PKG-INFO\n'}
+[4.347618] (my_robot_package) StdoutLine: {'line': b'writing dependency_links to my_robot_package.egg-info/dependency_links.txt\n'}
+[4.348884] (my_robot_package) StdoutLine: {'line': b'writing entry points to my_robot_package.egg-info/entry_points.txt\n'}
+[4.349020] (my_robot_package) StdoutLine: {'line': b'writing requirements to my_robot_package.egg-info/requires.txt\n'}
+[4.349144] (my_robot_package) StdoutLine: {'line': b'writing top-level names to my_robot_package.egg-info/top_level.txt\n'}
+[4.368997] (my_robot_package) StdoutLine: {'line': b"reading manifest file 'my_robot_package.egg-info/SOURCES.txt'\n"}
+[4.369442] (my_robot_package) StdoutLine: {'line': b"writing manifest file 'my_robot_package.egg-info/SOURCES.txt'\n"}
+[4.380552] (my_robot_package) StdoutLine: {'line': b'running build_ext\n'}
+[4.382122] (my_robot_package) StdoutLine: {'line': b'Creating /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages/my-robot-package.egg-link (link to .)\n'}
+[4.391278] (my_robot_package) StdoutLine: {'line': b'Installing my_subscriber_node script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/my_robot_package\n'}
+[4.391712] (my_robot_package) StdoutLine: {'line': b'\n'}
+[4.391864] (my_robot_package) StdoutLine: {'line': b'Installed /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package\n'}
+[4.391985] (my_robot_package) StdoutLine: {'line': b'running symlink_data\n'}
+[4.406584] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[4.418614] (-) TimerEvent: {}
+[4.522760] (-) TimerEvent: {}
+[4.628843] (-) TimerEvent: {}
+[4.740307] (-) TimerEvent: {}
+[4.800962] (my_robot_package) CommandEnded: {'returncode': 0}
+[4.846898] (-) TimerEvent: {}
+[4.876055] (my_robot_package) JobEnded: {'identifier': 'my_robot_package', 'rc': 0}
+[4.877982] (-) EventReactorShutdown: {}

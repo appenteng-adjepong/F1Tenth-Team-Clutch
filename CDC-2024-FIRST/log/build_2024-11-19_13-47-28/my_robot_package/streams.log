@@ -1,0 +1,26 @@
+[0.979s] Invoking command in '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/my_robot_package': PYTHONPATH=/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_package build --build-base /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/build install --record /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/install.log --single-version-externally-managed install_data
+[1.294s] running egg_info
+[1.296s] writing ../../build/my_robot_package/my_robot_package.egg-info/PKG-INFO
+[1.296s] writing dependency_links to ../../build/my_robot_package/my_robot_package.egg-info/dependency_links.txt
+[1.297s] writing entry points to ../../build/my_robot_package/my_robot_package.egg-info/entry_points.txt
+[1.297s] writing requirements to ../../build/my_robot_package/my_robot_package.egg-info/requires.txt
+[1.297s] writing top-level names to ../../build/my_robot_package/my_robot_package.egg-info/top_level.txt
+[1.299s] reading manifest file '../../build/my_robot_package/my_robot_package.egg-info/SOURCES.txt'
+[1.301s] writing manifest file '../../build/my_robot_package/my_robot_package.egg-info/SOURCES.txt'
+[1.301s] running build
+[1.301s] running build_py
+[1.302s] copying my_robot_package/wall_follow.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/build/lib/my_robot_package
+[1.302s] running install
+[1.302s] running install_lib
+[1.304s] copying /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/build/lib/my_robot_package/wall_follow.py -> /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages/my_robot_package
+[1.305s] byte-compiling /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages/my_robot_package/wall_follow.py to wall_follow.cpython-310.pyc
+[1.308s] running install_data
+[1.308s] running install_egg_info
+[1.311s] removing '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages/my_robot_package-0.0.0-py3.10.egg-info' (and everything under it)
+[1.311s] Copying ../../build/my_robot_package/my_robot_package.egg-info to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages/my_robot_package-0.0.0-py3.10.egg-info
+[1.313s] running install_scripts
+[1.338s] Installing my_subscriber_node script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/my_robot_package
+[1.338s] Installing safety_node script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/my_robot_package
+[1.338s] Installing wall_follow script to /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/my_robot_package
+[1.338s] writing list of installed files to '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/install.log'
+[1.375s] Invoked command in '/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/src/my_robot_package' returned '0': PYTHONPATH=/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_package build --build-base /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/build install --record /workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/build/my_robot_package/install.log --single-version-externally-managed install_data

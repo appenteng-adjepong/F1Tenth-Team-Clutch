@@ -1,0 +1,9 @@
+[console_scripts]
+draw_circle = my_robot_controller.draw_circle:main
+drive_vehicle1 = my_robot_controller.drive_vehicle1:main
+drive_vehicle2 = my_robot_controller.drive_vehicle2:main
+drive_vehicle3 = my_robot_controller.drive_vehicle3:main
+my_subscriber_node = my_robot_controller.my_subscriber_node:main
+new_bridge = my_robot_controller.new_bridge:main
+test_node = my_robot_controller.my_first_node:main
+

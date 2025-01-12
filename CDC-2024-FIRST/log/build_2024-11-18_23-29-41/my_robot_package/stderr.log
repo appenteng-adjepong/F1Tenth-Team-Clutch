@@ -1,0 +1,5 @@
+  File "/workspaces/F1Tenth_Team_Clutch/CDC-2024-FIRST/install/my_robot_package/lib/python3.10/site-packages/my_robot_package/safety_node.py", line 66
+    else throttle_command = 0.08
+         ^^^^^^^^^^^^^^^^
+SyntaxError: expected ':'
+
